@@ -2347,3 +2347,11 @@ input, select, textarea {
 		    .welcome-title, .welcome-subtitle {
 		        animation: pulse-gold 3s ease-in-out infinite;
 		    }
+
+.gallery-section {
+    margin-bottom: 3em; /* Espace entre les sections de galerie */
+}
+
+.gallery-section .gallery {
+    margin-bottom: 0; /* Annule la marge du bas pour la galerie à l'intérieur */
+}
